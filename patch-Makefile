@@ -9,7 +9,7 @@
  CATEGORIES=	sysutils
 -MASTER_SITES=	http://www.fehcom.de/ipnet/ucspi-ssl/
 +MASTER_SITES=	https://www.fehcom.de/ipnet/ucspi-ssl/
-+FETCH_CMD=      fetch --no-verify-pee
++FETCH_CMD=      fetch --no-verify-peer
 
  MAINTAINER=	lx@FreeBSD.org
  COMMENT=	UCSPI tools for building SSL client-server applications
