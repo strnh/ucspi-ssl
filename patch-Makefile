@@ -1,0 +1,15 @@
+--- Makefile.orig	2018-05-18 07:32:54.188048000 +0900
++++ Makefile	2018-05-18 07:33:43.448211000 +0900
+@@ -2,9 +2,10 @@
+ # $FreeBSD: head/sysutils/ucspi-ssl/Makefile 446229 2017-07-19 19:36:41Z lx $
+
+ PORTNAME=	ucspi-ssl
+-PORTVERSION=	0.99b
++PORTVERSION=	0.99d
+ CATEGORIES=	sysutils
+-MASTER_SITES=	http://www.fehcom.de/ipnet/ucspi-ssl/
++MASTER_SITES=	https://www.fehcom.de/ipnet/ucspi-ssl/
++FETCH_CMD=      fetch --no-verify-pee
+
+ MAINTAINER=	lx@FreeBSD.org
+ COMMENT=	UCSPI tools for building SSL client-server applications
